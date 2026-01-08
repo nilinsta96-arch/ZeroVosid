@@ -1,0 +1,84 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+/* BOSHLASH EKRANI */
+#startScreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2c3e50;
+}
+
+#startScreen button {
+    font-size: 50px;
+    padding: 30px 80px;
+    border: none;
+    border-radius: 50px;
+    background-color: #1abc9c;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#startScreen button:hover {
+    background-color: #16a085;
+    transform: scale(1.05);
+}
+
+/* ASOSIY SAYT */
+#site {
+    display: none;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #2c3e50;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #2c3e50;
+}
+
+.about p {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.6s;
+    margin-bottom: 10px;
+}
+
+.about p.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
